@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import pic from './profilepcs.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div >
+        <img style={{width:"auto",height:"600px",marginTop:"20px"}} src={pic} alt="profile" />
+      </div>
+      <h2>Habteab Firezgi</h2>
+      <p>React Native Apprentice</p>
+      <p>He/Him</p>
     </div>
   );
 }
